@@ -1,0 +1,23 @@
+[
+    {
+      "name": "A online shop",
+      "shortDetails": "A cutting-edge web application with powerful features.",
+      "image": "https://i.ibb.co/3TCCp10/image.png",
+      "githubLink": "https://github.com/Talukder-Asif/Assignment_10",
+      "liveLink": "https://brand-shop-rho.vercel.app/"
+    },
+    {
+      "name": "Food Business",
+      "shortDetails": "An innovative mobile app designed for efficiency.",
+      "image": "https://i.ibb.co/8cFQsTR/image.png",
+      "githubLink": "https://github.com/Talukder-Asif/Assignment_11",
+      "liveLink": "https://testhalal-2a0b9.web.app/"
+    },
+    {
+      "name": "Online Test",
+      "shortDetails": "A dynamic dashboard for insightful data visualization.",
+      "image": "https://i.ibb.co/kgnDyQt/image.png",
+      "githubLink": "https://github.com/Talukder-Asif/eGamelo",
+      "liveLink": "https://end-game-theta.vercel.app/"
+    }
+  ]

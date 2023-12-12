@@ -3,7 +3,7 @@ import SubTitle from "../../Component/SubTitle";
 
 const Study = () => {
   return (
-    <div className="max-w-7xl py-10 m-auto">
+    <div id="Education" className="max-w-7xl py-10 m-auto">
       <div className="text-center">
         <SubTitle Title={"My Education"}></SubTitle>
         <h1 className=" text-2xl mt-2 lg:text-4xl text-[#25292D] font-bold">

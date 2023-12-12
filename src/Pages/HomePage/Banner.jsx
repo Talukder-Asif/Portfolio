@@ -1,7 +1,6 @@
 import Btn from "../../Component/Btn";
 import GradintText from "../../Component/GradintText";
-import bannerImg from "/src/assets/hero image 1.png"
-import letsGo from "/src/assets/letsGo.svg"
+import bannerImg from "/src/assets/Myshelf.png"
 const Banner = () => {
   return (
     <div className="bg-gradient-to-l to-[#ffffff] from-[#cbf1c349]">
@@ -19,8 +18,7 @@ const Banner = () => {
             With a love for crafting beautiful and functional web experiences, I bring creativity and precision to every line of code.
             </p>
             <div className=" flex gap-5">
-            <Btn btnName={'Resume'}></Btn>
-            <button className="flex gap-3 items-center font-semibold"><img className="w-10 md:w-12" src={letsGo} alt="" />How It Work</button>
+            <a target="blank" href="https://drive.google.com/file/d/14p3b8mlUrVHCoT6P8-YiNW53xBfb0mXp/view?usp=drive_link"><Btn btnName={'Resume'}></Btn></a>
             </div>
           </div>
         </div>

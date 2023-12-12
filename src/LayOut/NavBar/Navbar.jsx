@@ -3,7 +3,10 @@ const Navbar = () => {
   const manuItem = (
     <>
       <li><a className="hover:bg-transparent hover:underline decoration-[#1e9f3d]" href={"/"}>Home</a></li>
-      <li><a className="hover:bg-transparent hover:underline decoration-[#1e9f3d]" href={"/about"}>About Me</a></li>
+      <li><a className="hover:bg-transparent hover:underline decoration-[#1e9f3d]" href={"#about"}>About</a></li>
+      <li><a className="hover:bg-transparent hover:underline decoration-[#1e9f3d]" href={"#Project"}>Project</a></li>
+      <li><a className="hover:bg-transparent hover:underline decoration-[#1e9f3d]" href={"#Education"}>Education</a></li>
+      <li><a className="hover:bg-transparent hover:underline decoration-[#1e9f3d]" href={"#Contact"}>Contact</a></li>
     </>
   );
 
@@ -41,9 +44,9 @@ const Navbar = () => {
         </div>
         
         <div className="navbar-end">
-        <div className="hidden lg:flex"><ul className="menu menu-horizontal px-1 font1 font-semibold space-x-3">{manuItem}</ul></div>
+        <div className="hidden lg:flex"><ul className="menu menu-horizontal px-1 font1 font-semibold ">{manuItem}</ul></div>
           
-          <Btn btnName={'Resume'}></Btn>
+        <a target="blank" href="https://drive.google.com/file/d/14p3b8mlUrVHCoT6P8-YiNW53xBfb0mXp/view?usp=drive_link"><Btn btnName={'Resume'}></Btn></a>
           
         </div>
       </div>

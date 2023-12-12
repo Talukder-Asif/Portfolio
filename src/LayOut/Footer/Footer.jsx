@@ -1,8 +1,8 @@
 import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
-import { FaPinterestP } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -19,45 +19,42 @@ const Footer = () => {
 
           <ul className="flex flex-wrap justify-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 py-5 gap-5">
             <li>
-              <Link>
+              <Link to={'https://www.facebook.com/profile.php?id=61552467179053'}>
                 <button
                   type="button"
-                  className="bg-white border hover:border-transparent border-[#F86161] hover:bg-gradient-to-r hover:from-[#F86161] hover:to-[#FFB23F] text-[#F86161] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
+                  className="bg-white border hover:border-transparent border-[#1dbf73] hover:bg-gradient-to-r hover:from-[#1dbf73] hover:to-[#217c00] text-[#1dbf73] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
                 >
                   <FaFacebookF />
                 </button>
               </Link>
             </li>
+
+            
             <li>
-              <Link>
+              <Link to={'https://github.com/Talukder-Asif'}>
                 <button
                   type="button"
-                  className="bg-white border hover:border-transparent border-[#F86161] hover:bg-gradient-to-r hover:from-[#F86161] hover:to-[#FFB23F] text-[#F86161] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
+                  className="bg-white border hover:border-transparent border-[#1dbf73] hover:bg-gradient-to-r hover:from-[#1dbf73] hover:to-[#217c00] text-[#1dbf73] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
                 >
-                  <FaInstagram />
+                  <FaGithub/>
                 </button>
               </Link>
             </li>
+
+            
             <li>
-              <Link>
+              <Link to={'https://www.linkedin.com/in/talukder-asif/'}>
                 <button
                   type="button"
-                  className="bg-white border hover:border-transparent border-[#F86161] hover:bg-gradient-to-r hover:from-[#F86161] hover:to-[#FFB23F] text-[#F86161] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
+                  className="bg-white border hover:border-transparent border-[#1dbf73] hover:bg-gradient-to-r hover:from-[#1dbf73] hover:to-[#217c00] text-[#1dbf73] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
                 >
-                  <FaTwitter />
+                  <FaLinkedin />
                 </button>
               </Link>
             </li>
-            <li>
-              <Link>
-                <button
-                  type="button"
-                  className="bg-white border hover:border-transparent border-[#F86161] hover:bg-gradient-to-r hover:from-[#F86161] hover:to-[#FFB23F] text-[#F86161] hover:text-white p-3 text-sm md:text-3xl rounded-lg"
-                >
-                  <FaPinterestP />
-                </button>
-              </Link>
-            </li>
+
+
+            
           </ul>
 
         </div>

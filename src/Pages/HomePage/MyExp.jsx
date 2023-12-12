@@ -7,7 +7,7 @@ import Lottie from "lottie-react";
 import skillsLottie from "/src/assets/Lottie/Exp.json";
 const MyExp = () => {
   return (
-    <div id="" className="pb-20 max-w-7xl m-auto">
+    <div id="Experiences" className="py-10 max-w-7xl m-auto">
       <div className="hero md:min-h-[500px] max-w-7xl m-auto relative">
         <div className="hero-content flex-col-reverse md:flex-row-reverse">
           <div className="md:w-5/12">
