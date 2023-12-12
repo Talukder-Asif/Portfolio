@@ -12,9 +12,7 @@ const Footer = () => {
           <a className='logo text-2xl  lg:text-3xl font-extrabold' href="/" >
             <span className='text-4xl lg:text-6xl text-[#217f04]'>A</span>sif <span className='hidden md:inline-block'>Talukder</span>
           </a>
-          <p className=" font1 m-auto text-center text-[#666] font-medium md:max-w-[50%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            conseq venenatis dolor dolor integer Quam ut tellus .
+          <p className=" font1 m-auto text-center text-[#666] font-medium md:max-w-[50%]">Embark on a journey through lines of code and pixels, where creativity meets functionality.Connect with me to turn ideas into captivating realities. Let&apos;s build something extraordinary together!
           </p>
 
           <ul className="flex flex-wrap justify-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 py-5 gap-5">

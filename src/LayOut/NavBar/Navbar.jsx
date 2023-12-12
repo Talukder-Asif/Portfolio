@@ -1,4 +1,5 @@
 import Btn from "../../Component/Btn";
+import CV from "/src/assets/Assignment-2 of SCIC.pdf"
 const Navbar = () => {
   const manuItem = (
     <>
@@ -46,7 +47,7 @@ const Navbar = () => {
         <div className="navbar-end">
         <div className="hidden lg:flex"><ul className="menu menu-horizontal px-1 font1 font-semibold ">{manuItem}</ul></div>
           
-        <a target="blank" href="https://drive.google.com/file/d/14p3b8mlUrVHCoT6P8-YiNW53xBfb0mXp/view?usp=drive_link"><Btn btnName={'Resume'}></Btn></a>
+        <a target="blank" href={CV} download><Btn btnName={'Resume'}></Btn></a>
           
         </div>
       </div>
