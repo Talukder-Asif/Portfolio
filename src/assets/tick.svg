@@ -1,0 +1,13 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tick">
+<circle id="Ellipse 17" cx="12.5" cy="12.5" r="12.5" fill="url(#paint0_linear_0_222)"/>
+<path id="Vector" d="M10.8636 14.3101L8.89665 12.2518L8.71591 12.0627L8.53517 12.2518L7.81926 13.001L7.6542 13.1737L7.81926 13.3464L10.6829 16.3429L10.8636 16.532L11.0444 16.3429L17.1807 9.92185L17.3458 9.74912L17.1807 9.5764L16.4648 8.82728L16.2841 8.63815L16.1034 8.82728L10.8636 14.3101Z" fill="white" stroke="white" stroke-width="0.5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_222" x1="25" y1="25" x2="-2.31749" y2="22.1406" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F86161"/>
+<stop offset="0.0001" stop-color="#1DBF73"/>
+<stop offset="1" stop-color="#217C00"/>
+</linearGradient>
+</defs>
+</svg>
