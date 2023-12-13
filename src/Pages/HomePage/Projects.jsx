@@ -25,7 +25,7 @@ console.log(myProject)
         {
           myProject?.map((project, i )=> 
 
-          <div key={i} className="mt-5 mb-5 relative abc bg-[#ffffff] border border-gray-200 hover:border-[#F86161] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div key={i} className="mt-5 mb-5 relative abc bg-[#ffffff] border border-white hover:border-[#1f9f3d] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <img className="p-3 m-auto" src={project?.image} alt="product image" />
           <div className="px-5 pb-7 space-y-2 ">
             <h5 className="text-2xl font-semibold text-center tracking-tight text-gray-900 dark:text-white">

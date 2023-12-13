@@ -100,7 +100,7 @@ const Contact = () => {
           </div>
 </div>
         </div>
-        <div className="divider md:divider-horizontal">OR</div>
+        <div className="divider divide-blue-200 md:divider-horizontal">OR</div>
         <div className="grid flex-grow md:w-[58%] card rounded-box place-items-center">
 
 
