@@ -40,7 +40,7 @@ const About = () => {
                   Programming Languages:
                   </h2>
                   <p className="text-[#666] text-sm">
-                  JavaScript, HTML, CSS, C, C++
+                  JavaScript, C, C++
                   </p>
                 </div>
               </div>
