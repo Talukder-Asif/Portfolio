@@ -1,5 +1,5 @@
 import Btn from "../../Component/Btn";
-import CV from "/src/assets/Assignment-2 of SCIC.pdf"
+import CV from "/src/assets/Resume.pdf"
 const Navbar = () => {
   const manuItem = (
     <>

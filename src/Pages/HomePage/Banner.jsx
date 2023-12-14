@@ -1,7 +1,7 @@
 import Btn from "../../Component/Btn";
 import GradintText from "../../Component/GradintText";
 import bannerImg from "/src/assets/Myshelf.png"
-import CV from "/src/assets/Assignment-2 of SCIC.pdf"
+import CV from "/src/assets/Resume.pdf"
 const Banner = () => {
   return (
     <div className="bg-gradient-to-l to-[#ffffff] from-[#cbf1c349]">
